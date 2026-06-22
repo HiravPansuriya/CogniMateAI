@@ -6,7 +6,7 @@ An **AI-powered learning platform** that helps students study smarter by generat
 
 ## 📌 Overview
 
-AI Study Assistant enables students to upload their study materials (PDFs/text notes) and leverage Generative AI to enhance their learning experience. The application extracts knowledge from the uploaded documents and provides intelligent features such as note summarization, question answering, quiz generation, flashcards, and study planning.
+AI Study Assistant enables students to upload their study materials (PDFs/text notes) and leverage Generative AI to enhance their learning experience. The application extracts knowledge from the uploaded documents and provides intelligent features such as note summarization, question answering, quiz generation, and flashcards.
 
 ---
 
@@ -56,12 +56,6 @@ AI Study Assistant enables students to upload their study materials (PDFs/text n
 * Automatically generate flashcards
 * Save and review flashcards
 * Subject-wise organization
-
-#### Study Planner
-
-* Personalized study schedules
-* Daily study goals
-* Revision planning based on exam dates
 
 ### 📊 Dashboard & Analytics
 
@@ -282,11 +276,4 @@ GET    /api/quiz/history
 POST   /api/flashcards/generate
 GET    /api/flashcards
 DELETE /api/flashcards/:id
-```
-
-### Study planner
-
-```text
-POST   /api/planner/generate
-GET    /api/planner
 ```
